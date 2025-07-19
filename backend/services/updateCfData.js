@@ -2,7 +2,7 @@ const axios = require('axios');
 const sendReminderEmail = require('../services/sendReminderEmail');
 const Student = require('../models/Student')
 
-const BASE_URL = 'http://localhost:5000/api'; 
+const BASE_URL = 'https://cp-tracker-hein.onrender.com/api'; 
 
 const fetchAndSyncStudent = async (cfHandle, studentId) => {
   if (!cfHandle || !studentId) {
