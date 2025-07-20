@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <nav className="grid grid-cols-2 md:grid-cols-3  items-center p-4 bg-blue-50 dark:bg-gray-800 text-black dark:text-white shadow-2xl">
       <div className="flex items-center gap-2 whitespace-nowrap overflow-hidden">
-        <img src="/logo.svg" className="h-8" alt="Logo" />
+        <img src="/logo.png" className="h-8" alt="Logo" />
         <h1 className="text-lg md:text-2xl font-semibold">
-          TLE Eliminators
+          CP Tracker
         </h1>
       </div>
 
